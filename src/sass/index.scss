@@ -1,0 +1,26 @@
+//--
+@import './common';
+@import './utils/mixins';
+@import './utils/container';
+@import './utils/vars';
+
+@import './components/header-main';
+@import './components/login';
+//--
+@import './components/main';
+@import './components/modal-filmcard';
+@import './components/pagination';
+//--
+@import './components/footer';
+@import './components/modal-about';
+@import './components/modal-members';
+//--
+@import './components/btn';
+@import './components/temp'; // Якщо комусь потрібно і він не знає де
+//--
+@import './components/page-up'; // Можливо додамо
+
+@import './components/spinner';
+
+@import './components/search-notification';
+

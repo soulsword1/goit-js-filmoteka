@@ -1,10 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { App } from 'components/App';
-import './index.css';
+// Сюди тільки підключаємо свої файли!!!
+// Далі кожен працює у своєму файлі !!!
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+import './js/example';
+
+import './js/homepage_main';
+import './js/modal-about';
+
+import './js/btn-up';
+
+import './js/fetchFilms';
+import './js/searchFilm';
+
+import './js/theme';
+
+import './js/modal-team';
+//import './js/trailer';
