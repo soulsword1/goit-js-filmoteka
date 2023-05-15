@@ -5,7 +5,8 @@
   "homepage": "https://github.com/soulsword1/goit-js-filmoteka",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-filmoteka/"
+    "build": "parcel build src/*.html --public-url /goit-js-filmoteka/",
+    "lint:js": "eslint src/**/*.{js,jsx}"
   },
   "repository": {
     "type": "git",
